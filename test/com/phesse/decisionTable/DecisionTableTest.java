@@ -1,9 +1,14 @@
-package com.phesse;
+package com.phesse.decisionTable;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
+
+import com.phesse.decisionTable.Condition;
+import com.phesse.decisionTable.DecisionTable;
+import com.phesse.decisionTable.Fact;
+import com.phesse.decisionTable.Rule;
 
 public class DecisionTableTest {
 	private static final String KEY = "key";

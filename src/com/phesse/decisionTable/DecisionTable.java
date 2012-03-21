@@ -1,4 +1,4 @@
-package com.phesse;
+package com.phesse.decisionTable;
 
 import java.util.ArrayList;
 import java.util.List;

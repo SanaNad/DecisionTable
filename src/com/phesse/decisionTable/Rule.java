@@ -1,4 +1,4 @@
-package com.phesse;
+package com.phesse.decisionTable;
 
 public class Rule {
 	private Object[] actions = null;

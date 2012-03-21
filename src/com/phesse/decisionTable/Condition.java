@@ -1,4 +1,4 @@
-package com.phesse;
+package com.phesse.decisionTable;
 
 public class Condition {
 	private String key;
