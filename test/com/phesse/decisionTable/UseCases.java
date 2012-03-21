@@ -7,7 +7,7 @@ import org.junit.Test;
 public class UseCases {
 	/**
 	    ------------|-------|-------|
-					| R1	| 	R2  |
+                    | R1	| 	R2  |
 		-----------------------------
 		is_young    | true  | false |
 		------------|-------|-------|
@@ -18,7 +18,7 @@ public class UseCases {
 	 */
 	@Test public void useCase1() {
 		/********
-		** Code zum Aufbau der Tabelle für Beispiel 1:
+		** Aufbau der Tabelle
 		********/
 		Condition condition = new Condition("is_young", true);
 		Rule rule1 = new Rule(	new Condition[]{condition}, new String[]{"Action_1"});
@@ -31,7 +31,7 @@ public class UseCases {
 		decisionTable.addRule(rule2);
 
 		/********
-		** Code zum Benutzen der Tabelle für Beispiel 1:
+		** Benutzen der Tabelle
 		********/
 		Fact fact = new Fact();
 		fact.setValue("is_young", true);
@@ -45,8 +45,8 @@ public class UseCases {
 	}
 	
 	/**
-		------------|-------|-------|-------|
-					| R1	| 	R2  | 	R2  |
+        ------------|-------|-------|-------|
+                    | R1	| 	R2  | 	R2  |
 		-------------------------------------
 		is_young    | true  | true  | false |
 		------------|-------|-------|--------
