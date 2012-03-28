@@ -23,7 +23,7 @@ public class Fact {
 	
 	protected Boolean getValue(String key) throws UnknownKeyException {
 		if (values.containsKey(key) == false)
-			throw new UnknownKeyException();
+			throw new UnknownKeyException("unknwon key " + key);
 		
 		return values.get(key);
 	}
